@@ -1,4 +1,4 @@
-package org.dreambike.springoauth.demo.Config;
+package dreambike.gateway.Config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;

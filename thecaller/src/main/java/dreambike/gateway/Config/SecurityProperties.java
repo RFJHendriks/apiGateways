@@ -1,4 +1,4 @@
-package org.dreambike.springoauth.demo.Config;
+package dreambike.gateway.Config;
 
 import java.util.List;
 import lombok.Getter;
@@ -9,8 +9,6 @@ import org.springframework.http.HttpMethod;
 import org.springframework.stereotype.Component;
 import org.springframework.web.cors.CorsConfiguration;
 
-@Getter
-@Setter
 @Component
 @Configuration
 @ConfigurationProperties(prefix = "rest.security")
@@ -65,8 +63,6 @@ public CorsConfiguration getCorsConfiguration() {
     return corsConfiguration;
   }
 
-  @Getter
-  @Setter
   public static class Cors {
 
     private List<String> allowedOrigins;

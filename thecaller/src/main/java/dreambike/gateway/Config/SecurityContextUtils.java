@@ -1,4 +1,4 @@
-package org.dreambike.springoauth.demo.Config;
+package dreambike.gateway.Config;
 
 import java.util.HashSet;
 import java.util.Set;
